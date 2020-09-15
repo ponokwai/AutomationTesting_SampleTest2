@@ -13,7 +13,8 @@ def test_my_very_first_test():
     time.sleep(3)
 
 #test_my_very_first_test()
-driver = webdriver.Chrome(r"C:\Users\Patrick.Onokwai\PycharmProjects\AutomationTesting_SampleTest2\Browsers\chromedriver.exe")
+#driver = webdriver.Chrome(r"C:\Users\Patrick.Onokwai\PycharmProjects\AutomationTesting_SampleTest2\Browsers\chromedriver.exe")
+driver = webdriver.Chrome()
 driver.get("http://www.google.com")
 driver.maximize_window()
 time.sleep(3)
